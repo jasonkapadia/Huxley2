@@ -61,8 +61,8 @@ stages:
       displayName: 'Deploy Huxley 2 to Azure web app service'
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'Azure subscription 1(e78f5ea0-bc84-42ba-8122-2a20415a6d00)'
+        azureSubscription: 'Pay-As-You-Go(1)(bc3f7191-dc83-49fb-bd7a-c7f858874485)'
         appType: 'webAppLinux'
-        WebAppName: 'huxley2'
+        WebAppName: 'mobicianrail'
         packageForLinux: '$(Build.ArtifactStagingDirectory)/**/Huxley2.zip'
         RuntimeStack: 'DOTNETCORE|6.0'
